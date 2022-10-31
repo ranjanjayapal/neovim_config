@@ -55,4 +55,5 @@ return require('packer').startup(function()
 	-- use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
     use "Raimondi/delimitMate"
+    use "xiyaowong/nvim-transparent"
 end)
