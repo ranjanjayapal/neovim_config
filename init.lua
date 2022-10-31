@@ -11,7 +11,6 @@ require('vars')      -- Variables
 require('opts')      -- Options
 require('keys')      -- Keymaps
 require('packer-plugin')      -- Plugins
-require('lsp_config')
 -- require('comment')
 require('nvim-treesitter.configs').setup {
     -- A list of parser names, or "all"
@@ -58,3 +57,6 @@ require('nvim-treesitter.configs').setup {
         enable = true
     }
 }
+-- require('plugin/lsp/mason')
+-- require('plugin/lsp/lspsaga')
+-- require('plugin/lsp/lsp_config')
