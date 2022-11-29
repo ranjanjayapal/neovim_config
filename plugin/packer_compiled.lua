@@ -189,6 +189,16 @@ _G.packer_plugins = {
     path = "/home/rj/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/rj/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/home/rj/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    url = "https://github.com/airblade/vim-gitgutter"
+  },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
     path = "/home/rj/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",

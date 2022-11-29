@@ -56,4 +56,7 @@ return require('packer').startup(function()
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
     use "Raimondi/delimitMate"
     use "xiyaowong/nvim-transparent"
+    -- use "luk400/vim-jukit"
+    use "tpope/vim-fugitive"
+    use "airblade/vim-gitgutter"
 end)
