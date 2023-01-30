@@ -12,7 +12,16 @@ return require('packer').startup(function()
         },
         -- tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
-    use {'glepnir/dashboard-nvim'}
+    use {
+        'glepnir/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+        require('dashboard').setup {
+          -- config
+        }
+        end,
+        requires = {'nvim-tree/nvim-web-devicons'}
+    }
     use {
       'nvim-telescope/telescope.nvim', tag = '0.1.0',
     -- or                            , branch = '0.1.x',
