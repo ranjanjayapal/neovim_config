@@ -4,6 +4,8 @@ return require('packer').startup(function()
 
     -- use 'gruvbox-community/gruvbox' -- colorscheme
     use 'bluz71/vim-nightfly-guicolors' -- colorscheme
+    -- Install without configuration
+    use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' }) -- colorscheme
 
     use {
         'nvim-tree/nvim-tree.lua',
