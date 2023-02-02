@@ -6,6 +6,8 @@ return require('packer').startup(function()
     use 'bluz71/vim-nightfly-guicolors' -- colorscheme
     -- Install without configuration
     use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' }) -- colorscheme
+    use 'tomasiser/vim-code-dark' -- colorscheme
+    use "olimorris/onedarkpro.nvim" -- colorscheme
 
     use {
         'nvim-tree/nvim-tree.lua',
